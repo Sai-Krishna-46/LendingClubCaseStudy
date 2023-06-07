@@ -17,10 +17,33 @@ The company can utilise this knowledge for its portfolio and risk assessment.
 
 ```
 
-#### Step 1: Data Cleaning 1  
-#### Step 2: Univariate Analysis
-#### Step 3: Bivaraiate/Multivariate Analysis
-#### Step 5: Results   
+### Step 1: Data Cleaning 1  
+
+#### a) Considered the loan status, which are Fully paid and Charged Off.
+#### b) Deleted all the columns which contains empty values or NA.
+#### c) Removed the rows which contains empty cells.
+#### d) For the better analysis grouped the emp_length 10+ Years to 10 & <1 Year to 1
+#### e) Created two new columns ‘Year’, ‘Month’ from ‘issue_d’ date column.
+#### f) Columns 'emp_length', 'int_rate’ habing data type as Object, type casted to numeric.
+#### g)Used Sort function to sort the column ‘Grade’ for the better view.
+
+
+### Step 2: Univariate Analysis
+#### a) Count & percentage of Loan status between FullyPaid vs ChargedOff
+#### b) Count of Customers experience
+#### c) Category wise distributio of loans
+#### d) House ownership of customers
+#### e) Loans Issued in each year
+#### f) Purpose of loan consideration
+#### g) Distribution of loans across various grades
+
+### Step 3: Bivaraiate/Multivariate Analysis
+#### a) Differentiaion of Interest rates for each grade
+#### b) comparion of fully paid & charged off between employee length and verification status
+#### c) No. of Loans issued in each year and a month
+#### f) Heatmap view
+
+### Step 5: Results   
 
 
 ### Contributors
